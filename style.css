@@ -45,6 +45,24 @@ a:hover {
     align-items: center;
     justify-content: center;
     padding: 100px 20px;
+    gap: 50px;
+}
+
+.header-chunk-content {
+    width: 450px;
+}
+
+.header-chunk-content .header-p {
+    margin: 15px 0;
+}
+
+.header-image {
+    background-color: rgb(140, 142, 145);
+    height: 220px;
+    width: 300px;
+    text-align: center;
+    display: grid;
+    place-items: center;
 }
 
 .header-text,
@@ -64,9 +82,15 @@ a:hover {
     background-color: #3882f6;
     border: none;
     border-radius: 5px;
-    padding: 8px 10px;
+    padding: 10px 25px;
     font-weight: bolder;
     color: #e5e7eb;
+    transition: background-color 0.5s;
+}
+
+.sign-up-button:hover {
+    background-color: #3369c0;
+    cursor: pointer;
 }
 
 .random-information {
@@ -109,3 +133,53 @@ a:hover {
     font-style: normal;
 }
 
+.call-to-action {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #3882f6;
+    padding: 20px 120px;
+    border-radius: 10px;
+}
+
+.call-to-action button {
+    height: 30px;
+    width: 100px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    flex-shrink: 0;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.call-to-action button:hover {
+    background-color: white;
+    color: #3882f6;
+    cursor: pointer;
+}
+
+.call-text {
+    font-weight: bold;
+}
+
+.call-to-action p {
+    margin: 0;
+    padding: 4px 0;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 30px;
+}

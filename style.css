@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    width: 80vw;
+    padding: 25px 10vw;
+}
+
+.header-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.navbar-chunk {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-chunk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
+}
+
+.header-text,
+.header-p,
+.sign-up-button {
+    margin: 0;
+}
+
+.links {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-weight: bolder;
+    color: #e5e7eb;
+}
